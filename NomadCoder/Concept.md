@@ -17,7 +17,7 @@
 
 + string
   + 문자열
-  + "" 사용
+  + ""  or ''사용
 + boolean
   + true // false
 
@@ -49,11 +49,36 @@
 
   ````js
   const nicoInfo = {
-      name:"Nico"
+      name:"Nico",
       gender: "Male"
   }
   nicoInfo.gender = "Female"
   ````
 
-  
++ Object와 Array는 서로 종속 시킬 수 있다
 
+  ````js
+  const nicoInfo = {
+      name:"Nico"
+      gender: "Male"
+      favMovies: ["Along the gods", "LOTR"]
+      favFood: [
+          {
+              name: "Kimchi",
+              fatty: false
+          },
+          {
+              name: "Cheese burger",
+              fatty: true
+          }
+      ]
+  }
+  ````
+
+  위 코드에서 facFood의 fatty를 출력할 시,
+
+  ````js
+  console.log(nicoInfo.favFood[0].fatty)
+  ````
+
+  이런 식으로 출력 가능
