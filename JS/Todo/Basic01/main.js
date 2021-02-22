@@ -9,6 +9,23 @@ const handleKeypress = function (e) {     // 여기서 e는 기본적으로 제�
 
 const generateTodo = (todo) => {
   const li = document.createElement("li");
+  const likeSpan = generateLike();
+  const itemSpan = generateItem();
+  const manageSpan = generateSpan();
+  li.appendChild(likeSpan);
+  li.appendChild(iteSpan);
+  li.appendChild(manageSpan);
+  todoList.appendChild(li);
+
+}
+const genrateLike = () => {
+  return;
+}
+const genrateLike = () => {
+  return;
+}
+const genrateLike = () => {
+  return;
 }
 
 todoInput.addEventListener("keypress", handleKeypress)
