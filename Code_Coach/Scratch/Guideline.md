@@ -70,3 +70,55 @@
       + 신호 보내고 기다리기
         + 기다리기는 신호를 보낸 다른 스프라이트의 모든 행동이 끝나야지 다음 코드 실행
 
++ Control
+
+  + forever
+    + 프로그램 강제 종료 전까지 계속 반복
+    + if then과 자주 사용 (검사 시간 관련)
+
+  + script
+    + 해당 논리 블록
+
+  + when I start as a clone
+    + 복제되었을 때
+    + 복제본에게만 적용
+
+
+
++ Sensing
+
+  + 육각형
+    + 불리언 물음
+
+  + set drag mode draggable
+    + 전체 화면에서 드래그 가능 여부
+
+  + x position of 스프라이트1
+
+    + 같은 무대 내의 다른 스프라이트의 정보 체크
+
+    + 자기 자신의 정보 체크는 Motion섹션에서 알 수 있었다
+
+      
+
++ Operators
+
+  + 3개 이상의 연산
+    + 중첩 기능 사용
+
+  + not
+    + true => false
+    + false => true
+
+  + mod
+    + 나누기
+
+  + round
+    + 반올림
+
+  + abs // floor // ceiling // sqrt
+    + 절댓값 // 버림 // 올림 // 제곱근
+
+
+
++ Variables
